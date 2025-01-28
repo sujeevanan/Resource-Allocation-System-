@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.hall-name {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 4px;
+}
+
+.batch-schedule {
+  margin-bottom: 40px;
+}
+.button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: green;
+  font-size: 16px;
+}
+.heading {
+  background-color: green;
+  padding: 5px 10px;
+  color: white;
+}
+.button-submit {
+  padding: 15px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.input {
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
